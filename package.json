@@ -1,0 +1,21 @@
+{
+    "name": "nuclear-theme",
+    "displayName": "NucleaR theme",
+    "description": "My super custom theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.41.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "NucleaR theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/NucleaR theme-color-theme.json"
+            }
+        ]
+    }
+}
