@@ -583,35 +583,77 @@
 			"name": "CSS class",
 			"scope": "entity.other.attribute-name.class",
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#9FD82D"
 			}
 		},
 		{
 			"name": "CSS ID",
 			"scope": "entity.other.attribute-name.id",
 			"settings": {
-				"foreground": "#F78C6C"
+				"foreground": "#f7cf21"
 			}
 		},
 		{
 			"name": "CSS tag",
 			"scope": "source.css entity.name.tag",
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#ED266D"
+			}
+		},
+		{
+			"name": "CSS property name",
+			"scope": "support.type.property-name.css, support.type.vendored.property-name.css",
+			"settings": {
+				"foreground": "#92bec7"
+			}
+		},
+		{
+			"name": "CSS property value",
+			"scope": "support.constant.property-value.css, variable.argument.css",
+			"settings": {
+				"foreground": "#ffcb6b"
+			}
+		},
+		{
+			"name": "CSS value number",
+			"scope": "constant.numeric.css, entity.other.attribute-name.pseudo-class.css",
+			"settings": {
+				"foreground": "#AE81FF"
+			}
+		},
+		{
+			"name": "CSS value unit",
+			"scope": "keyword.other.unit",
+			"settings": {
+				"foreground": "#E9266C"
+			}
+		},
+		{
+			"name": "CSS value color",
+			"scope": "constant.other.color",
+			"settings": {
+				"foreground": "#f78d51"
 			}
 		},
 		{
 			"name": "HTML tag outer",
 			"scope": "meta.tag, punctuation.definition.tag",
 			"settings": {
-				"foreground": "#89DDFF"
+				"foreground": "#C792EA"
 			}
 		},
 		{
 			"name": "HTML tag inner",
-			"scope": "entity.name.tag",
+			"scope": "entity.name.tag, entity.other.attribute-name.pseudo-element.css",
 			"settings": {
 				"foreground": "#ff35c2"
+			}
+		},
+		{
+			"name": "HTML tag vue",
+			"scope": "source.vue entity.name.tag.template, source.vue entity.name.tag.script, source.vue entity.name.tag.style",
+			"settings": {
+				"foreground": "#5d88fd"
 			}
 		},
 		{
@@ -752,7 +794,7 @@
 		},
 		{
 			"name": "JSX Components name",
-			"scope": "support.class.component",
+			"scope": "support.class.component, entity.name.tag.other",
 			"settings": {
 				"foreground": "#FF355B"
 			}
